@@ -1,0 +1,516 @@
+/* ========================================header css start here========================== */
+
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(119,36,174);
+    background: linear-gradient(90deg, rgba(119,36,174,1) 0%, rgba(211,100,100,1) 50%, rgba(182,133,64,1) 100%);
+    height: 50px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.navbar-brand {
+    color: #090909;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #040404;
+}
+
+/* Custom CSS to align brand image to the left */
+@media (min-width: 768px) {
+    .navbar-brand {
+        margin-right: auto;
+    }
+}
+.container-fluid  img{
+    width: 120px;
+    height: 48px;
+   
+}
+
+
+
+/* ===========================header css end here============================= */
+
+/* Varshitha style part here */
+
+
+/* Navbar styling */
+nav{
+    width:100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+ 
+#timeCraftNavbar{
+    height: 10vh;
+    margin-left: 50px;
+}
+#timeCraftNavbar>div:nth-of-type(2){
+    font-size: 15px;
+    margin-right: 50px;
+}
+#button{
+    display: none;
+}
+#ham-content{
+    display: none;
+}
+
+/* carousel styling */
+
+figure{
+    
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    left: 3.5%;
+}
+.hr1{
+    width:93%;
+    margin-left: 3%;
+}
+#carouselExampleDark{
+    width: 70%;
+    height: 48px;
+   font-size:12px; 
+   margin-left: 3%;  
+     
+}
+
+
+#carouselItem1{
+    width: 90%; 
+    position: relative; 
+    left: 5%; right:2%;
+}
+
+
+  
+.logo_img{
+    background-image: url(./timecraft_logo.png);
+     background-size: cover; 
+     background-position: center;
+      min-height:30px; min-width: 100px;
+}
+
+#carouselItem2{
+    width: 90%;
+     position: relative;
+      left: 5%; right:2%;
+      
+}
+ 
+/* Scroll bar for tab and phone view  */
+
+section {
+    display: none;
+}
+
+    /* Tab view  */
+
+@media(max-width:768px){
+   /* hamburger menu   */
+   nav{
+    width:100%;
+    margin: auto;
+   
+   }
+   #timeCraftNavbar>div:nth-of-type(2)>span{
+     display: none;
+     margin-left: 10px;
+   }
+   #timeCraftNavbar>div:nth-of-type(2)>#button{
+    display: block;
+   }
+
+   
+
+/* making carosel invisable */
+
+   figure{
+    display: none;
+    
+   }
+
+  /* making scroll bar visable  */
+
+section{
+    padding: 0px;
+    margin: 0px;
+     display: block;
+     display: flex;
+     flex-direction: column;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    
+}
+hr{
+    
+    padding: 0px;
+   
+}
+
+.scroll-container {
+    width: 100%;
+    max-height: 48px; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    font-size: 13px;
+    background-color: white;
+    
+  }
+  .scroll-content{
+    margin-left: 3%;
+   
+  }
+  
+   .content {
+    width: 600px; 
+  } 
+ 
+}
+
+@media(max-width:420px){
+    nav{
+        width:100%;
+        margin: auto;
+       
+       }
+     
+       figure{
+        display: none;
+        margin-left: 10px;
+        
+       }
+    section{
+        padding: 0px;
+        margin: 0px;
+         display: block;
+         display: flex;
+         flex-direction: column;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: white;
+        
+    }
+    hr{
+        width: 100%;
+        padding: 0px;
+       
+    }
+    
+    .scroll-container {
+        width: 100%;
+        max-height: 48px; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        font-size: 13px;
+        background-color: white;
+        
+      }
+      .scroll-content{
+        margin-left: 3%;
+       
+      }
+      /* Add some content for demonstration */
+      .content {
+        width: 600px; 
+      } 
+}
+
+/* Varshitha part ends here */
+
+
+/* ---------vaibhav's css start here---------------------- */
+
+.mainpart{
+    display: flex;
+    height:100vh;
+    width: 100%;
+}
+.sidebar{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    width: 25%;
+    overflow-y: auto; 
+    /* background: linear-gradient(#04a1ef, #bf4bca,#05bc98,#f4f700); */
+
+   
+}
+/* .sidebar::-webkit-scrollbar {
+   display: none;
+ } */
+
+#one button{
+   border: none;
+   font-size: 12px;
+   padding: 8px;
+
+}
+#two>div{
+width: 70px;
+height: 70px;
+border: 2px solid black;
+}
+#two{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 6px;
+   justify-content: center;
+}
+#filter{
+  margin-left: 30px;
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+#filter>button{
+   border: none;
+   font-size: 12px;
+   padding: 8px;
+   background-color: rgb(235, 235, 234);
+  
+}
+#filter>button:hover{
+ background: linear-gradient(#04a1ef, #bf4bca);
+  color: white;
+  border: 1px double;
+
+  
+}
+
+#one>button:hover{
+ background: linear-gradient(#04a1ef, #bf4bca);
+   color: white;
+   border: 1px double;
+}
+
+
+/* --------------vaibhav's css end here------------------- */
+
+
+/* =============pratik's css starts here================== */
+.watch-card {
+    width: 75%;
+    display: grid;
+    /* flex-wrap: wrap;
+    justify-content: start;
+    overflow-y: auto; */
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 20px;
+    gap: 5px;
+    overflow-y: auto; 
+  }
+  .card-body>p:nth-of-type(2){
+    font-size: 12px;
+  }
+.card img{
+    width: 100%;
+    background-position: center;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.card1 img{
+    width: 100%;
+    background-position: center;
+    background-color:rgb(209, 207, 207);
+
+}
+.card1:hover{
+    cursor: pointer;
+    border: 1px solid;
+
+
+}
+
+/* =============pratik's css ends here================== */
+
+
+
+/* this is sanju's container-fluid  styling portion ...........beginning........... */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#container-fluid  {
+    background-color: rgb(240, 238, 238);
+    color: black;
+    /* margin: 20px 20px 20px 50px; */
+    justify-content: center;
+    height:auto;
+    margin:30px;
+    
+  }
+  #container-fluid >div:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+     padding:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px 0 0 50px;
+    cursor:pointer;
+  }
+  .grey{
+    color: grey;
+    cursor:pointer;
+  }
+  .social{
+    margin:20px;
+    cursor:pointer;
+    font-size: 25px;
+  }
+  /* #container-fluid  > div:nth-child(2) {
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin:20px;
+  } */
+  .span2{
+    /* padding:60px;
+    box-sizing: content-box; */
+    margin-left:20px;
+    display:flex; 
+    flex-direction:row;
+    gap:30px; 
+    font-size:14px;
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* margin: 20px 0 0 50px; */
+    cursor:pointer;
+  }
+  @media screen and (max-width>=2000px){
+    .dropdown{
+      display:none;
+    }
+  }
+  
+  #container-fluid  > div:nth-child(3) {
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor:pointer;
+  }
+  .dropdown {
+    display: none;
+  }
+  
+  .dropdown,
+    hr {
+      display: none;
+    }
+    div h1{
+      font-size:20px;
+      font-weight: 1000px;
+      margin-left:20px;
+      cursor:pointer;
+    
+    }
+  
+  p{
+    margin-left:20px;
+    font-size:14px;
+  }
+  
+   
+    /* Default styles for dropdown and hr */
+    .dropdown,
+    hr {
+      display: none;
+    }
+  
+    /* Show .dropdown and hr on screens with width <= 767px */
+    @media screen and (max-width: 767px) {
+  
+      /* Hide the first child of the container on small screens */
+      #container-fluid  > div:nth-child(1) {
+        display: none;
+      }
+      .dropdown{
+        display:none;
+      }
+  
+      .dropdown,
+      hr {
+        display: block;
+        margin:20px;
+        cursor:pointer;
+      }
+  
+      button{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:150px;
+        cursor:pointer;
+        
+      }
+  
+      .dropdown li{
+        display:none;
+      }
+       button:active+ul>li{
+        display: block;
+      }
+  
+      .social{
+        padding:10px;
+        margin:10px;
+        gap:10px;
+      }
+  
+      .span2{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:10px;
+        text-align: center;
+        justify-content: center;
+      } 
+  
+      
+    }
+
+/* this is sanju's container-fluid  styling portion ...........ending part......... */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
